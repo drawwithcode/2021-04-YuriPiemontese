@@ -61,7 +61,7 @@ function draw() {
   rect(0, 0, (windowWidth / 240) * frameCount, windowHeight / 16);
   pop();
 
-  if (frameCount > 240) {
+  if (frameCount > 237) {
     window.open(url + "second-page.html");
     mySong1.stop();
   }
